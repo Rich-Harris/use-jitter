@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width; initial-scale=1'>
+
+	<title>USE_JITTER=true</title>
+
+	<style>
+		html, body {
+			width: 100%;
+			height: 100%;
+			padding: 0;
+			margin: 0;
+		}
+
+		body {
+			width: 100%;
+			height: 100%;
+			background: url(jitter.gif) 50% 50% no-repeat;
+			background-size: contain;
+			font-family: Helvetica Neue, sans-serif;
+			font-weight: 300;
+			color: #333;
+		}
+
+		main {
+			position: relative;
+			max-width: 640px;
+			background-color: rgba(255,255,255,0.8);
+			/* border: 1px solid rgba(0,0,0,0.5); */
+			margin: 0 auto;
+			padding: 1em;
+			top: 50%;
+			transform: translate(0,-50%)
+		}
+
+		h1 {
+			font-weight: 400;
+			margin: 0 0 1em 0;
+		}
+
+		ul {
+			font-size: 20px;
+			line-height: 1.2;
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<h1>Alabama election not stressful enough?</h1>
+
+		<ol>
+			<li>Drag the <a href='javascript:(function()%7BUSE_JITTER%3Dtrue%7D)()'>USE_JITTER</a> bookmarklet to your bookmarks bar</li>
+			<li>Go to the <a target='_blank' href='https://www.nytimes.com/elections/results/alabama-senate-special-election-roy-moore-doug-jones'>live Alabama election results</a> page</li>
+			<li>Click on the bookmark</li>
+		</ol>
+
+		<p>Thanks, <a href='https://twitter.com/jshkatz/status/940700338880999425'>Josh</a>!</p>
+
+		<footer>
+			Made by <a href='https://twitter.com/rich_harris'>Rich Harris</a>. Disclaimer: This site is not endorsed by the New York Times. I just happen to work here.
+		</footer>
+	</main>
+</body>
+</html>
